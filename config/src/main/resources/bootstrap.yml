@@ -1,0 +1,33 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ErmolaevAM/config-server-repo
+
+management:
+  security:
+    enabled: false
+
+
+#spring:
+#  application:
+#    name: config
+#  profiles:
+#    active: native
+##  cloud:
+##    config:
+##      server:
+##        native:
+##          searchLocations: classpath:/configs/
+#
+##spring.cloud.config.server.git.uri=https://github.com/ErmolaevAM/cloud-config.git
+##management.security.enabled=false
+#
+##server.port=8888
+##spring.application.name=config
+##spring.profiles.active=native
+##spring.cloud.config.server.native.searchLocations=
