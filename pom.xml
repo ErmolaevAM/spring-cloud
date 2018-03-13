@@ -13,6 +13,7 @@
         <module>config</module>
         <module>client</module>
         <module>eureka</module>
+        <module>elite</module>
     </modules>
 
 

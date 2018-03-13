@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: elite
+  cloud:
+    config:
+      uri: http://config
+
+management:
+  security:
+    enabled: false
