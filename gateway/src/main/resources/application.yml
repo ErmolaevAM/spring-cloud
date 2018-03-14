@@ -1,0 +1,22 @@
+server:
+  port: 8762
+
+zuul:
+  routes:
+    client:
+      path: /client/**
+      serviceId: client
+    elite:
+      path: /elite/**
+      serviceId: elite
+
+
+ribbon:
+  eureka:
+    enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    registerWithEureka: false

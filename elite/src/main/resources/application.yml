@@ -1,3 +1,6 @@
+server:
+  port: 9090
+
 spring:
   application:
     name: elite
@@ -8,3 +11,7 @@ spring:
 management:
   security:
     enabled: false
+
+ribbon:
+  eureka:
+    enabled: true
