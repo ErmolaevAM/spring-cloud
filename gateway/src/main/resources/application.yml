@@ -10,7 +10,6 @@ zuul:
       path: /elite/**
       serviceId: elite
 
-
 ribbon:
   eureka:
     enabled: true
