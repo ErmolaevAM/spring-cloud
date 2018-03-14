@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/elite")
+@RequestMapping
 public class EliteController {
 
     @Value("${message:defaule message from elite service}")
