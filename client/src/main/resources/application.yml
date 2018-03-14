@@ -8,10 +8,6 @@ spring:
     config:
       uri: http://config
 
-management:
-  security:
-    enabled: false
-
 ribbon:
   eureka:
     enabled: true
