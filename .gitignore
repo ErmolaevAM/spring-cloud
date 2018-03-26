@@ -6,3 +6,8 @@
 .idea
 *.iml
 target
+client/client.iml
+config/config.iml
+elite/elite.iml
+eureka/eureka.iml
+gateway/gateway.iml

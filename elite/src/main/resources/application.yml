@@ -1,5 +1,5 @@
 server:
-  port: 9090
+  port: 8082
 
 spring:
   application:
@@ -11,3 +11,11 @@ spring:
 ribbon:
   eureka:
     enabled: true
+
+logging:
+  level:
+    org.springframework.cloud: ERROR
+    spring.microservices.cloud.elite: INFO
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} %-5level - %msg%n"
+  file: elite/src/main/resources/elite_application.log

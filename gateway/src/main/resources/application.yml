@@ -25,3 +25,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+logging:
+  level:
+    org.springframework.cloud: ERROR
+    spring.microservices.cloud.gateway: INFO
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} %-5level - %msg%n"
+  file: gateway/src/main/resources/gateway_application.log
